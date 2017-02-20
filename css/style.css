@@ -1,0 +1,236 @@
+﻿
+html,body{
+	margin:0 0 0 30px;border:0;padding:0;
+	/*font-size:16px;*/
+	font-family:"微软雅黑";
+	position:relative;
+	vertical-align:baseline;
+
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+/*<header>*/
+
+header{
+	text-align:center;
+	min-height:400px;
+	overflow:hidden;
+	position:relative;
+	padding-top:130px;
+	padding-bottom: 140px;
+        
+}
+
+h1 small{
+	color:#993366;
+}
+
+.imgBorder{
+	border:5px solid #fff;
+	box-shadow:2px 2px #000;
+    width:260px;
+    height:260px;
+}
+
+.chName{
+	color:#66CCFF;
+	font-weight:bold;
+	text-shadow: 1px 1px;
+}
+
+.enName{
+	color: #339966;
+	font-weight:bold;
+	text-shadow:1px 1px;
+	/*text-align:center;*/
+}
+
+header img{
+	display:inline-block !important;
+}
+
+header hr{
+	border-color:#3366cc;
+	width:260px;
+}
+
+header h1{
+	padding-top:40px;
+}
+
+/*skills  basics <section>*/
+.about,.skills,.education,.languages,.hobby,.experience{
+	padding:40px;
+	min-height:330px;
+	max-height:350px;
+}
+
+.about{
+	background-color:#E3E3E3;
+	box-shadow:0px 1px 5px ;
+}
+
+.basic{
+	/*font-family: 'Proxima';*/
+	line-height:40px;
+	color: #60A9F0;
+	font-weight:bold;
+	text-shadow:1px 1px;
+}
+
+.about h3{
+	line-height:20px;
+	color:#60A9F0;;
+}
+
+.skills{
+	background: #3366CC;
+    color: #f5f5f5;
+    box-shadow:0px 1px 5px ;
+}
+
+.skills h2{
+	text-shadow:1px 1px;
+}
+
+.skills strong{
+	line-height:30px;
+}
+
+progress{
+	color:red;
+}
+
+
+/*education <section> */
+.education{
+	background: #3366CC;
+    color: #f5f5f5;
+    box-shadow:0px 1px 5px ;
+    margin-top:15px;
+}
+
+.education h2{
+	text-shadow:1px 1px;
+	color:#66CDAA;
+}
+
+.education h3{
+	line-height:30px;
+	color:#66CDAA;
+}
+
+
+/*languages <section> */
+.languages{
+	background-color:#E3E3E3;
+    color: #60A9F0;
+    box-shadow:0px 1px 5px ;
+    margin-top:15px;
+}
+
+.languages h2{
+	text-shadow:1px 1px;
+	line-height:30px;
+}
+
+.languages ul{
+	padding:22px;
+}
+.languages ul li{
+	padding:15px;
+	font-size:16px;
+}
+
+
+/*hobby experience <section>*/
+.hobby{
+	background-color:#E3E3E3;
+    color: #60A9F0;
+    box-shadow:0px 1px 5px ;
+    margin-top:15px;
+    padding:20px;
+    margin-bottom:30px;
+}
+
+.hobby h2{
+	line-height:35px;
+    text-align: center;
+    text-shadow:1px 1px;
+}
+
+.hobby h3{
+	line-height:30px;
+	text-align: center;
+}
+
+.experience{
+	background: #3366CC;
+    color: #f5f5f5;
+    box-shadow:0px 1px 5px ;
+    margin-top:15px;
+    margin-bottom:100px;
+    padding:20px;
+}
+
+.experience h2{
+	text-shadow:1px 1px;
+	line-height:35px;
+}
+
+.experience p{
+	font-size: 16px;
+	line-height: 30px
+}
+
+/*动画*/
+.ani img{
+	width:100px;
+	height:100px;
+	border:2px solid border-left: ;
+}
+
+.ani{
+	width:100px;
+	height:100px;
+    animation-name:ani;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+}
+
+.ani1{
+	width:100px;
+	height:100px;
+    animation-name:ani1;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    margin-bottom: 100px;
+}
+
+@keyframes ani{
+	0%,100%{
+		margin:0;
+	}
+
+	25%,75%{
+		margin-left:500px;
+	}
+
+	50%{
+		margin-left:1000px;
+	}
+
+	
+}
+
+
+
